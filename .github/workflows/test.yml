@@ -1,4 +1,4 @@
-name : step 2 Run App
+name : step 3 Install Dependencies
 on: 
  push:
    branches: 
@@ -11,5 +11,9 @@ jobs:
      uses: actions/checkout@v3
    - name: show files
      run : ls -lrtha
+   
+   - name : Install dependincies
+     run : npm install
    - name : Running App
      run : node app.js
+   
