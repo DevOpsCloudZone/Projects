@@ -1,4 +1,4 @@
-name : Check-Out Code
+name : step 2 Run App
 on: 
  push:
    branches: 
@@ -11,3 +11,5 @@ jobs:
      uses: actions/checkout@v3
    - name: show files
      run : ls -lrtha
+   - name : Running App
+     run : node app.js
