@@ -1,2 +1,2 @@
 
-console.log("App executed successfully 🚀");
+console.log("App executed successfully in Browser🚀");
